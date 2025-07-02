@@ -1,0 +1,70 @@
+[
+    {
+        "question_text": "What is the primary method for converting categorical features into numerical features?",
+        "question_answers": [
+            "Embedding space",
+            "One-hot encoding",
+            "Dimensionality reduction",
+            "Feature selection"
+        ],
+        "correct_answer": "Embedding space",
+        "difficulty": "difficult",
+        "bloom_taxonomy": "Difficult"
+    },
+    {
+        "question_text": "Which of the following is a key benefit of using embeddings over one-hot encoding?",
+        "question_answers": [
+            "They overcome the limitations of one-hot encoding.",
+            "They are easier to learn.",
+            "They reduce dimensionality."
+        ],
+        "correct_answer": "They overcome the limitations of one-hot encoding.",
+        "difficulty": "difficult",
+        "bloom_taxonomy": "Difficult"
+    },
+    {
+        "question_text": "What is the primary goal of dimensionality reduction?",
+        "question_answers": [
+            "Summarizing a set of correlated variables with a smaller set of variables.",
+            "Improving the performance of models.",
+            "Visualizing the data."
+        ],
+        "correct_answer": "Summarizing a set of correlated variables with a smaller set of variables.",
+        "difficulty": "medium",
+        "bloom_taxonomy": "Evaluate"
+    },
+    {
+        "question_text": "What is the main advantage of using Count for tree models?",
+        "question_answers": [
+            "These models don't have a natural way of aggregating information across many features at once.",
+            "They are less prone to overfitting.",
+            "They are easier to interpret."
+        ],
+        "correct_answer": "They don't have a natural way of aggregating information across many features at once.",
+        "difficulty": "medium",
+        "bloom_taxonomy": "Apply"
+    },
+    {
+        "question_text": "What is the purpose of Principal Component Analysis (PCA)?",
+        "question_answers": [
+            "Dimensionality reduction, feature extraction, and data visualization.",
+            "Training machine learning models.",
+            "Calculating ratios between variables."
+        ],
+        "correct_answer": "Dimensionality reduction, feature extraction, and data visualization.",
+        "difficulty": "medium",
+        "bloom_taxonomy": "Understand"
+    },
+    {
+        "question_text": "Which method is best suited for handling high-cardinality variables?",
+        "question_answers": [
+            "One-hot encoding",
+            "Embedding space",
+            "Dimensionality reduction",
+            "Feature selection"
+        ],
+        "correct_answer": "Embedding space",
+        "difficulty": "medium",
+        "bloom_taxonomy": "Difficult"
+    }
+]
