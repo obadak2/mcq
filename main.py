@@ -5,5 +5,5 @@ logger = setup_logger()
 logger.info("Starting application...")
 
 pipeline = RAGPipeline("example.pdf", logger)
-questions = pipeline.run("الذكاء الاصطناعي في التعليم")
+questions = pipeline.run("query")
 print(questions)
