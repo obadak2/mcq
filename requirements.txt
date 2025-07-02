@@ -1,0 +1,23 @@
+# Core RAG & LangChain stack
+langchain>=0.1.17
+sentence-transformers>=2.2.2
+transformers>=4.41.0
+torch>=2.2.0
+accelerate>=0.30.1
+
+# PDF & OCR
+pymupdf>=1.23.21
+pillow>=10.3.0
+pytesseract>=0.3.10
+
+# Utility
+tqdm>=4.66.4
+
+# Optional: for JSON parsing & prompts
+rich>=13.7.1
+
+# To avoid CUDA runtime warnings (if using GPU)
+bitsandbytes>=0.43.1; sys_platform != "win32"
+
+# Optional: For chat templating (e.g., HuggingFace chat models)
+huggingface-hub>=0.22.2
